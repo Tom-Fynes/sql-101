@@ -1,5 +1,7 @@
 ## Types of SQL Languages
 
+Each type of SQL sub-language plays a crucial role in managing and interacting with databases effectively, ensuring robust and secure data management practices.
+
 ### 1. Data Definition Language (DDL)
 - **Purpose**: Defines the structure of the database.
 - **Common Commands**:
