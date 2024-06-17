@@ -14,6 +14,8 @@ Grades have been added to help break your journy into helpful sections. Each sec
 
 ### Grade 1
 
+[What is SQL?](Docs/What_IS_SQL.md)
+
 ### Grade 2
 
 ### Grade 3
