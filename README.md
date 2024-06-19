@@ -14,7 +14,7 @@ Grades have been added to help break your journy into helpful sections. Each sec
 
 ### Grade 1: Introduction to SQL and Databases
 
-- [**Overview of SQL**](Docs/Grade_1/What_IS_SQL.md): What is SQL, history, and its importance.
+- [**Overview of SQL**](Docs/Grade_1/What_IS_SQL.md): What is SQL and its importance.
 
 * [**Relational Databases**](Docs/Grade_1/Relational_databases.md): Basic concepts of relational databases, tables, rows, and columns.
 * [**Basic SQL Syntax**](Docs/Grade_1/Basic_sql.md): Introduction to SQL statements and query structure.
@@ -74,3 +74,5 @@ Grades have been added to help break your journy into helpful sections. Each sec
 ### Extracurricular
 
 In this section we will cover technoligy specific topics such as reading CSVs in DuckDB and variable in SQL Server (TSQL).
+
+- [**Cursors**](Docs/Extracurricular/Cursors.md): Using `CURSOR` in SQL Server to loop through data.
