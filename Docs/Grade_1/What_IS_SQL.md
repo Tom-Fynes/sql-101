@@ -1,6 +1,6 @@
 ## Overview of SQL
 
-**SQL (Structured Query Language)** is a standard programming language designed for managing and manipulating relational databases. It is widely used in various applications, from small-scale software to large enterprise systems. SQL allows users to create, read, update, and delete data within a database, providing a powerful and flexible means of handling data.
+**SQL (Structured Query Language)** is a language designed for managing and manipulating relational databases. It is widely used in various applications, from small-scale software to large enterprise systems. SQL allows users to create, read, update, and delete data within a database, providing a powerful and flexible means of handling data.
 
 ### Key Features of SQL
 
