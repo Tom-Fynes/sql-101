@@ -1,5 +1,3 @@
-# Level 1: Introduction to SQL and Databases
-
 ## Relational Databases
 
 ### What is a Relational Database?
