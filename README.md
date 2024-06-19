@@ -14,32 +14,34 @@ Grades have been added to help break your journy into helpful sections. Each sec
 
 ### Grade 1: Introduction to SQL and Databases
 
-- [**Overview of SQL**](Docs/What_IS_SQL.md): What is SQL, history, and its importance.
-* **Relational Databases**: Basic concepts of relational databases, tables, rows, and columns.
-* **Basic SQL Syntax**: Introduction to SQL statements and query structure.
-* **Simple Queries**: Using `SELECT` to retrieve data from a single table.
-* **Filtering Data**: Using `WHERE` clause to filter results.
+- [**Overview of SQL**](Docs/Grade_1/What_IS_SQL.md): What is SQL, history, and its importance.
+
+* [**Relational Databases**](Docs/Grade_1/Relational_databases.md): Basic concepts of relational databases, tables, rows, and columns.
+* [**Basic SQL Syntax**](Docs/Grade_1/Basic_sql.md): Introduction to SQL statements and query structure.
+* [**Simple Queries**](Docs/Grade_1/Simple_queries.md): Using `SELECT` to retrieve data from a single table.
+* [**Filtering Data**](Docs/Grade_1/Filtering_data.md): Using `WHERE` clause to filter results.
 
 ### Grade 2: Intermediate Data Retrieval
 
-- **Sorting Data**: Using `ORDER BY` to sort query results.
-* **Limiting Results**: Using `LIMIT` (or `TOP` in some SQL dialects) to restrict the number of returned rows.
-* **Basic Functions**: Introduction to SQL functions like `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`.
-* **Aliasing**: Using `AS` to rename columns in the result set.
+- [**Sorting Data**](Docs/Grade_2/sorting_data.md): Using `ORDER BY` to sort query results.
+
+* [**Limiting Results**](Docs/Grade_2/Limiting_data.md): Using `LIMIT` (or `TOP` in some SQL dialects) to restrict the number of returned rows.
+* [**Basic Functions**](Docs/Grade_2/Basic_functions.md): Introduction to SQL functions like `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`.
+* [**Aliasing**](Docs/Grade_2/Alias.md): Using `AS` to rename columns in the result set.
 
 ### Grade 3: Advanced Data Retrieval
 
-- **Joins**: Understanding and using different types of joins (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`).
-* **Aggregate Functions**: Grouping data with `GROUP BY` and filtering groups with `HAVING`.
-* **Subqueries**: Writing and using subqueries in `SELECT`, `FROM`, `WHERE`, and `HAVING` clauses.
-* **Set Operations**: Using `UNION`, `INTERSECT`, and `EXCEPT`.
+- [**Joins**](Docs/Grade_3/joins.md): Understanding and using different types of joins (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`).
+* [**Aggregate Functions**](Docs/Grade_3/Aggregation.md): Grouping data with `GROUP BY` and filtering groups with `HAVING`.
+* [**Subqueries**](Docs/Grade_3//subqueries.md): Writing and using subqueries in `SELECT`, `FROM`, `WHERE`, and `HAVING` clauses.
+* [**Set Operations**](Docs/Grade_3/Set_operations.md): Using `UNION`, `INTERSECT`, and `EXCEPT`.
 
 ### Grade 4: Data Manipulation
 
-- **Inserting Data**: Using `INSERT` to add new records to a table.
-* **Updating Data**: Using `UPDATE` to modify existing records.
-* **Deleting Data**: Using `DELETE` to remove records.
-* **Bulk Operations**: Performing bulk inserts, updates, and deletes.
+- [**Inserting Data**](Docs/Grade_4/Inserting_data.md): Using `INSERT` to add new records to a table.
+* [**Updating Data**](Docs/Grade_4/Updateing_data.md): Using `UPDATE` to modify existing records.
+* [**Deleting Data**](Docs/Grade_4/Deleting_data.md): Using `DELETE` to remove records.
+* [**Bulk Operations**](Docs/Grade_4/Bulk_operatinos.md): Performing bulk inserts, updates, and deletes.
 
 ### Grade 5: Database Design and Data Definition
 
