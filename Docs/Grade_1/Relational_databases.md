@@ -31,7 +31,7 @@ A relational database is a type of database that stores and provides access to d
 
 2. **Foreign Key**:
     - A foreign key is a column, or a set of columns, that establishes a link between the data in two tables.
-    - It is a field (or collection of fields) in one table that refers to a unique in another table.
+    - It is a field (or collection of fields) in one table that refers to a unique vakue in another table.
     - Example: `department_id` in the `employees` table might reference the `department_id` in a `departments` table.
 
 ### Relationships Between Tables
