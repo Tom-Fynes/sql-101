@@ -14,7 +14,7 @@ Grades have been added to help break your journy into helpful sections. Each sec
 
 ### Grade 1: Introduction to SQL and Databases
 
-- **Overview of SQL**: What is SQL, history, and its importance.
+- [**Overview of SQL**](Docs/What_IS_SQL.md): What is SQL, history, and its importance.
 * **Relational Databases**: Basic concepts of relational databases, tables, rows, and columns.
 * **Basic SQL Syntax**: Introduction to SQL statements and query structure.
 * **Simple Queries**: Using `SELECT` to retrieve data from a single table.
