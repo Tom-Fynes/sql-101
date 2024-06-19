@@ -17,7 +17,6 @@ Grades have been added to help break your journy into helpful sections. Each sec
 - [**Overview of SQL**](Docs/Grade_1/What_IS_SQL.md): What is SQL and its importance.
 
 * [**Relational Databases**](Docs/Grade_1/Relational_databases.md): Basic concepts of relational databases, tables, rows, and columns.
-* [**Basic SQL Syntax**](Docs/Grade_1/Basic_sql.md): Introduction to SQL statements and query structure.
 * [**Simple Queries**](Docs/Grade_1/Simple_queries.md): Using `SELECT` to retrieve data from a single table.
 * [**Filtering Data**](Docs/Grade_1/Filtering_data.md): Using `WHERE` clause to filter results.
 
