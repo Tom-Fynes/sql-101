@@ -45,31 +45,31 @@ Grades have been added to help break your journy into helpful sections. Each sec
 
 ### Grade 5: Database Design and Data Definition
 
-- **Creating Tables**: Using `CREATE TABLE` to define new tables.
-* **Altering Tables**: Using `ALTER TABLE` to modify existing tables (e.g., adding, dropping columns).
-* **Dropping Tables**: Using `DROP TABLE` to delete tables.
-* **Constraints**: Understanding and implementing primary keys, foreign keys, unique constraints, and check constraints.
+- [**Creating Tables**](Docs/Grade_5/Create_tables.md): Using `CREATE TABLE` to define new tables.
+* [**Altering Tables**](Docs/Grade_5/Altering_tables.md): Using `ALTER TABLE` to modify existing tables (e.g., adding, dropping columns).
+* [**Dropping Tables**](Docs/Grade_5/Droping_Tables.md): Using `DROP TABLE` to delete tables.
+* [**Constraints**](Docs/Grade_5/Constraints.md): Understanding and implementing primary keys, foreign keys, unique constraints, and check constraints.
 
 ### Grade 6: Advanced SQL Functions and Expressions
 
-- **String Functions**: Using functions like `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, etc.
-* **Date and Time Functions**: Using functions like `NOW`, `DATEADD`, `DATEDIFF`, `FORMAT`, etc.
-* **Mathematical Functions**: Using functions like `ROUND`, `ABS`, `CEIL`, `FLOOR`, etc.
-* **Case Statements**: Using `CASE` for conditional logic within queries.
+- [**String Functions**](Docs/Grade_6/String_functions.md): Using functions like `CONCAT`, `SUBSTRING`, `LENGTH`, `TRIM`, etc.
+* [**Date and Time Functions**](Docs/Grade_6/Date_time.md): Using functions like `NOW`, `DATEADD`, `DATEDIFF`, `FORMAT`, etc.
+* [**Mathematical Functions**](Docs/Grade_6/Maths.md): Using functions like `ROUND`, `ABS`, `CEIL`, `FLOOR`, etc.
+* [**Case Statements**](Docs/Grade_6/Case.md): Using `CASE` for conditional logic within queries.
 
 ### Grade 7: Performance Tuning and Optimization
 
-- **Indexes**: Understanding the importance of indexes and how to create them.
-* **Query Optimization**: Tips and techniques for writing efficient queries.
-* **Execution Plans**: Reading and interpreting execution plans to optimize query performance.
-* **Temporary Tables and CTEs**: Using temporary tables and Common Table Expressions (CTEs) to simplify complex queries.
+- [**Indexes**](Docs/Grade_7/Indexes.md): Understanding the importance of indexes and how to create them.
+* [**Query Optimization**](Docs/Grade_7/Optermization.md): Tips and techniques for writing efficient queries.
+* [**Execution Plans**](Docs/Grade_7/Execution_plans.md): Reading and interpreting execution plans to optimize query performance.
+* [**Temporary Tables and CTEs**](Docs/Grade_7/Temp_tables_ctes.md): Using temporary tables and Common Table Expressions (CTEs) to simplify complex queries.
 
 ### Grade 8: Transactions and Security
 
-- **Transactions**: Using `BEGIN TRANSACTION`, `COMMIT`, and `ROLLBACK` to manage transactions.
-* **Locking and Concurrency**: Understanding locking mechanisms and how to handle concurrency.
-* **User Management**: Creating and managing users, roles, and permissions.
-* **Security Best Practices**: Implementing best practices for securing SQL databases, including SQL injection prevention.
+- [**Transactions**](Docs/Grade_8/Transactions.md): Using `BEGIN TRANSACTION`, `COMMIT`, and `ROLLBACK` to manage transactions.
+* [**Locking and Concurrency**](Docs/Grade_8/Locking_concurrentct.md): Understanding locking mechanisms and how to handle concurrency.
+* [**Windows Functions**](Docs/Grade_8/Windows_functions.md): Using `ROWNUMBER`, `RANK`, and `NTILE`.
+
 
 ### Extracurricular
 
