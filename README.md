@@ -46,7 +46,6 @@ Grades have been added to help break your journy into helpful sections. Each sec
 - [**Inserting Data**](Docs/Grade_4/Inserting_data.md): Using `INSERT` to add new records to a table.
 * [**Updating Data**](Docs/Grade_4/Updateing_data.md): Using `UPDATE` to modify existing records.
 * [**Deleting Data**](Docs/Grade_4/Deleting_data.md): Using `DELETE` to remove records.
-* [**Bulk Operations**](Docs/Grade_4/Bulk_operatinos.md): Performing bulk inserts, updates, and deletes.
 
 ### Grade 5: Database Design and Data Definition
 
