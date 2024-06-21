@@ -6,7 +6,9 @@ By the end of the course, you will be writing complex queries, optimizing databa
 
 ## Recommened Programs
 
-* TBC
+* [DBeaver Community](https://dbeaver.io/)
+* [DuckDB](https://duckdb.org/)
+  * Please see Setup page for details
 
 ## Grades
 
