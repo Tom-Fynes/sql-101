@@ -20,6 +20,7 @@ WHERE column_name = (SELECT column_name FROM table_name WHERE condition);
 ```
 
 **Example**
+
 Find employees who earn more than the average salary:
 
 ```sql
@@ -38,6 +39,7 @@ WHERE column_name IN (SELECT column_name FROM table_name WHERE condition);
 ```
 
 **Example**
+
 Find employees who work in the same department as 'John Doe':
 
 ```sql
@@ -55,6 +57,7 @@ FROM table_name;
 ```
 
 **Example**
+
 Retrieve employee names and the total number of employees in the company:
 
 ```sql
@@ -72,6 +75,7 @@ WHERE column_name operator (SELECT column_name FROM table_name WHERE table_name.
 ```
 
 **Example**
+
 Find employees who earn more than the average salary in their department:
 
 ```sql
