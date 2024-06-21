@@ -8,7 +8,11 @@ By the end of the course, you will be writing complex queries, optimizing databa
 
 * [DBeaver Community](https://dbeaver.io/)
 * [DuckDB](https://duckdb.org/)
-  * Please see Setup page for details
+  * Please see setup page for details
+
+## Setup
+
+* TODO
 
 ## Grades
 
