@@ -31,7 +31,8 @@ Use the Display Estimated Execution Plan option in SQL Server Management Studio 
 SET SHOWPLAN_TEXT ON
 GO
 SELECT
-  * FROM
+  *
+FROM
 employees
 WHERE department_id = 1;
 ```
