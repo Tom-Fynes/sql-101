@@ -56,7 +56,7 @@ Deadlocks occur when two or more transactions are waiting for each other to rele
 - **Pessimistic Locking**: Assumes conflicts are likely and acquires locks before transactions proceed, preventing conflicts but potentially reducing concurrency.
 
 ### DuckDB Considerations
-DuckDB is a lightweight and embeddable database management system that supports various SQL functionalities, including concurrency control with its own mechanisms for managing locks and transactions.
+DuckDB is a lightweight and embeddable database engin that supports various SQL functionalities, including concurrency control with its own mechanisms for managing locks and transactions.
 
 #### DuckDB Locking and Concurrency
 DuckDB manages concurrency through efficient transaction management and locking mechanisms similar to traditional database systems. It supports different isolation levels and ensures data integrity through atomicity, consistency, isolation, and durability (ACID) properties.
