@@ -10,6 +10,8 @@ By the end of the course, you will be writing complex queries, optimizing databa
 * [DuckDB](https://duckdb.org/)
   * Please see setup page for details
 
+You may also use any other database engine you feel comfortable with however the create database statement may need to be adjusted.
+
 ## Setup
 
 * TODO
