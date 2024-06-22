@@ -44,7 +44,7 @@ Having too many indexes can slow down write operations and increase maintenance 
 ### Use SELECT Statements Efficiently
 Avoid using `SELECT *`; specify only the columns you need.
 
-```
+```sql
 -- Inefficient
 SELECT
   *
