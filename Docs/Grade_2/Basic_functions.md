@@ -178,3 +178,12 @@ SELECT NOW();
 
 #### Practice Exercises
 * TODO
+
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/limiting_data.md">Previous: Limiting Results</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/Alias.md">Next: Aliasing</a>
+</p>

@@ -63,3 +63,12 @@ ORDER BY 2 ASC;
 
 #### Practice Exercises
 * TODO
+
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/Filtering_data.md">Previous: Filtering Data</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/Limiting_data.md">Next: Limiting Results</a>
+</p>

@@ -54,3 +54,12 @@ LIMIT 5;
 
 #### Practice Exercises
 * TODO
+
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/sorting_data.md">Previous: Sorting Data</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/Basic_functions.md">Next: Basic Functions</a>
+</p>

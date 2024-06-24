@@ -121,5 +121,5 @@ WHERE department_id = 101 AND salary > 50000 AND years_of_experience > 5;
 <p align="center">
     <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/Simple_queries.md">Previous: Simple Queries</a>
     |
-    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/sorting_data.md">Next: Sorting Data (Grade 2)</a>
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/sorting_data.md">Next: Sorting Data</a>
 </p>
