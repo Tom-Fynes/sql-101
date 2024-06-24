@@ -13,3 +13,11 @@ FROM table_name;
 SELECT first_name, last_name
 FROM employees;
 ```
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/Relational_databases.md">Previous: Relational Databases</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/Filtering_data.md">Next: Filtering Data</a>
+</p>

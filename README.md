@@ -82,3 +82,12 @@ Grades have been added to help break your journy into helpful sections. Each sec
 In this section we will cover technoligy specific topics such as reading CSVs in DuckDB and variable in SQL Server (TSQL).
 
 - [**Cursors**](Docs/Extracurricular/Cursors.md): Using `CURSOR` in SQL Server to loop through data.
+
+
+--- 
+
+<p align="center">
+    <a href="page0.html">Previous</a> 
+    |
+    <a href="page2.html">Next</a>
+</p>

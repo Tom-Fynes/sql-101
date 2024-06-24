@@ -21,3 +21,9 @@
 Learning SQL is fundamental for careers in data-related fields, such as data engineering, data analysis, and data science. Mastering SQL enables professionals to interact with databases effectively, extract meaningful insights from data, and support data-driven decision-making processes.
 
 Overall, SQL remains a crucial skill for anyone involved in the management, analysis, and utilization of data in professional settings.
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/Relational_databases.md">Next: Relational Databases</a>
+</p>

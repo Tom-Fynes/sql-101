@@ -82,3 +82,11 @@ Each type of SQL sub-language plays a crucial role in managing and interacting w
   - `COMMIT`: Saves all changes made during the transaction.
   - `ROLLBACK`: Undoes all changes made during the transaction.
   - `SAVEPOINT`: Sets a savepoint within a transaction to which you can roll back later.
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/What_IS_SQL.md">Previous: Overview of SQL</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_1/Simple_queries.md">Next: Simple Queries</a>
+</p>
