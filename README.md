@@ -66,7 +66,7 @@ Grades have been added to help break your journy into helpful sections. Each sec
 ### Grade 7: Performance Tuning and Optimization
 
 - [**Indexes**](Docs/Grade_7/Indexes.md): Understanding the importance of indexes and how to create them.
-* [**Query Optimization**](Docs/Grade_7/Optermization.md): Tips and techniques for writing efficient queries.
+* [**Query Optermization**](Docs/Grade_7/Optermization.md): Tips and techniques for writing efficient queries.
 * [**Execution Plans**](Docs/Grade_7/Execution_plans.md): Reading and interpreting execution plans to optimize query performance.
 * [**Temporary Tables and CTEs**](Docs/Grade_7/Temp_tables_ctes.md): Using temporary tables and Common Table Expressions (CTEs) to simplify complex queries.
 
