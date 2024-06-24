@@ -34,9 +34,9 @@ LEFT JOIN table2 ON table1.common_column = table2.common_column;
 Retrieve all employees and their department names, including those without a department:
 
 ```sql
-SELECT employees.first_name, employees.last_name, departments.department_name
+SELECT employees.firstname, employees.lastname, departments.departmentname
 FROM employees
-LEFT JOIN departments ON employees.department_id = departments.department_id;
+LEFT JOIN departments ON employees.departmentid = departments.departmentid;
 ```
 
 ### RIGHT JOIN (or RIGHT OUTER JOIN)
