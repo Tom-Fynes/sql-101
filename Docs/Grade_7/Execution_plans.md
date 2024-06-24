@@ -112,7 +112,7 @@ Rewrite queries to use more efficient operations, such as replacing subqueries w
 ---
 
 <p align="center">
-    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Optermization.md">Previous: Query Optimization</a>
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Optermization.md">Previous: Query Optermization</a>
     |
     <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Temp_tables_ctes.md">Next: Temporary Tables and CTEs</a>
 </p>
