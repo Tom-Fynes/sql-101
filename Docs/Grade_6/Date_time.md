@@ -141,4 +141,13 @@ FROM employees;
 ```
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_6/String_functions.md">Previous: String Functions</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_6/Maths.md">Next: Mathematical Functions</a>
+</p>

@@ -77,4 +77,13 @@ CREATE TABLE departments (
 * Data Integrity: Use constraints to ensure data accuracy and consistency.
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_4/Deleting_data.md">Previous: Deleting Data</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Altering_tables.md">Next: Altering Tables</a>
+</p>

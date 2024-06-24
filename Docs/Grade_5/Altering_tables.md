@@ -124,4 +124,13 @@ RENAME TO staff;
 ```
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Create_tables.md">Previous: Creating Tables</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Droping_Tables.md">Next: Dropping Tables</a>
+</p>

@@ -101,3 +101,13 @@ FROM departments2;
 * Column Data Types: The data types of the columns must be compatible.
 
 ### Practice Exercises
+
+* TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/subqueries.md">Previous: Subqueries</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_4/Inserting_data.md">Next: Inserting Data</a>
+</p>

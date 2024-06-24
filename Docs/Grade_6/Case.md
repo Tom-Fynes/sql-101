@@ -112,5 +112,14 @@ ORDER BY
 ```
 
 ### Practice Exercises
+
 * TODO
   
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_6/Maths.md">Previous: Mathematical Functions</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Indexes.md">Next: Indexes</a>
+</p>

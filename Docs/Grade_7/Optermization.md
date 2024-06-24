@@ -166,4 +166,14 @@ WHERE last_name LIKE 'Smi%';
 ```
 
 ## Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Indexes.md">Previous: Indexes</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Execution_plans.md">Next: Execution Plans</a>
+</p>
+

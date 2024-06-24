@@ -152,4 +152,13 @@ FROM EmployeeHierarchy;
 ```
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Execution_plans.md">Previous: Execution Plans</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_8/Transactions.md">Next: Transactions</a>
+</p>

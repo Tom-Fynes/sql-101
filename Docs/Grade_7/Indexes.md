@@ -103,4 +103,13 @@ from duckdb_constraints()
 * Too many indexes can lead to maintenance overhead and decreased performance.
   
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_6/Case.md">Previous: Case Statements</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Optermization.md">Next: Query Optimization</a>
+</p>

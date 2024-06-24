@@ -65,5 +65,14 @@ DROP TABLE employees;
 ```
 
 ### Practice Exercises
+
 * TODO
   
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Altering_tables.md">Previous: Altering Tables</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Constraints.md">Next: Constraints</a>
+</p>

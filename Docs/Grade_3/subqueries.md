@@ -84,5 +84,15 @@ FROM employees e1
 WHERE salary > (SELECT AVG(salary) FROM employees e2 WHERE e2.department_id = e1.department_id);
 ```
 
-Practice Exercises
+### Practice Exercises
+
 * TODO
+
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/Aggregation.md">Previous: Aggregate Functions</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/Set_operations.md">Next: Set Operations</a>
+</p>

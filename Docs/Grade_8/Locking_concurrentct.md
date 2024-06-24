@@ -62,4 +62,13 @@ DuckDB is a lightweight and embeddable database engin that supports various SQL 
 DuckDB manages concurrency through efficient transaction management and locking mechanisms similar to traditional database systems. It supports different isolation levels and ensures data integrity through atomicity, consistency, isolation, and durability (ACID) properties.
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_8/Transactions.md">Previous: Transactions</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_8/Windows_functions.md">Next: Windows Functions</a>
+</p>

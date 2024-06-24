@@ -77,3 +77,12 @@ FULL OUTER JOIN departments ON employees.department_id = departments.department_
 
 ### Practice Exercises
 * TODO
+
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/Alias.md">Previous: Aliasing</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/Aggregation.md">Next: Aggregate Functions</a>
+</p>

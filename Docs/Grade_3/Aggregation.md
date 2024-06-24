@@ -159,3 +159,11 @@ GROUP BY department_id;
 ### Practice Exercises
 * TODO
   
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/joins.md">Previous: Joins</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/subqueries.md">Next: Subqueries</a>
+</p>

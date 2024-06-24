@@ -65,4 +65,13 @@ FROM old_employees;
 ```
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/Set_operations.md">Previous: Set Operations</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_4/Updateing_data.md">Next: Updating Data</a>
+</p>

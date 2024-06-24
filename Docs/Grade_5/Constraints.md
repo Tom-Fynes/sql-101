@@ -150,4 +150,13 @@ DROP CONSTRAINT unique_email;
 ```
 
 ### Practice Exercises
+
 * TODO 
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Droping_Tables.md">Previous: Dropping Tables</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_6/String_functions.md">Next: String Functions</a>
+</p>

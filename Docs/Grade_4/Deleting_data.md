@@ -65,4 +65,14 @@ TRUNCATE TABLE employees;
 * Backup: Always back up your data before performing delete operations, especially if they involve large amounts of data or critical tables.
 
 ### Practice Exercises
+
 * TODO
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_4/Updateing_data.md">Previous: Updating Data</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_5/Create_tables.md">Next: Creating Tables</a>
+</p>
+

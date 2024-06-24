@@ -71,5 +71,13 @@ WHERE salary < 50000;
 ```
 
 ### Practice Exercises
+
 * TODO
   
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_4/Inserting_data.md">Previous: Inserting Data</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_4/Deleting_data.md">Next: Deleting Data</a>
+</p>

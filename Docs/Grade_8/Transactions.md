@@ -131,4 +131,13 @@ SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
 ```
 
 ### Practice Exercises
+
 * TODO 
+
+---
+
+<p align="center">
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_7/Temp_tables_ctes.md">Previous: Temporary Tables and CTEs</a>
+    |
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_8/Locking_concurrentct.md">Next: Locking and Concurrency</a>
+</p>
