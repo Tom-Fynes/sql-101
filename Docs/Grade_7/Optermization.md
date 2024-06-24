@@ -1,9 +1,9 @@
-# Query Optimization
+# Query Optermization
 
 ## Introduction
-Query optimization involves improving the performance of SQL queries to ensure they run efficiently. This section will cover various techniques and best practices for optimizing SQL queries, including indexing strategies, query rewriting, and analyzing execution plans.
+Query optermization involves improving the performance of SQL queries to ensure they run efficiently. This section will cover various techniques and best practices for optimizing SQL queries, including indexing strategies, query rewriting, and analyzing execution plans.
 
-## Importance of Query Optimization
+## Importance of Query Optermization
 Optimizing queries can significantly reduce execution time and resource consumption, leading to faster performance and better scalability of your database applications.
 
 ## Analyzing Execution Plans
