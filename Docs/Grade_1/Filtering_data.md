@@ -16,9 +16,9 @@ WHERE condition;
 **Example**
 Retrieve employees who work in department 101:
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
-WHERE department_id = 101;
+WHERE departmentid = 101;
 ```
 
 #### Using Comparison Operators
@@ -36,42 +36,42 @@ Comparison operators are used in the `WHERE` clause to specify the condition. Th
 Retrieve employees with a salary equal to 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 WHERE salary = 50000;
 ```
 Retrieve employees with a salary not equal to 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 WHERE salary <> 50000;
 ```
 Retrieve employees with a salary less than 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 WHERE salary < 50000;
 ```
 Retrieve employees with a salary less than or equal to 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 WHERE salary <= 50000;
 ```
 Retrieve employees with a salary greater than 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 WHERE salary > 50000;
 ```
 Retrieve employees with a salary greater than or equal to 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 WHERE salary >= 50000;
 ```
@@ -95,9 +95,9 @@ WHERE condition1 AND condition2;
 Retrieve employees who work in department 101 and have a salary greater than 50000:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
-WHERE department_id = 101 AND salary > 50000;
+WHERE departmentid = 101 AND salary > 50000;
 ```
 
 Combining Multiple Conditions
@@ -107,9 +107,9 @@ You can combine multiple AND conditions to further filter the data.
 Retrieve employees who work in department 101, have a salary greater than 50000, and have more than 5 years of experience:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
-WHERE department_id = 101 AND salary > 50000 AND years_of_experience > 5;
+WHERE departmentid = 101 AND salary > 50000 AND yearsofexperience > 5;
 ```
 
 #### Practice Exercises
