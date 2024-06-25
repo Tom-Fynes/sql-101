@@ -10,7 +10,7 @@ FROM table_name;
 
 #### Select Specific Columns
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees;
 ```
 
