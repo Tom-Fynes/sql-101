@@ -42,7 +42,7 @@ CREATE TABLE Location (
 CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY,
     DepartmentName VARCHAR(100),
-    LocationID VARCHAR(100),
+    LocationID INT,
     FOREIGN KEY (LocationID) REFERENCES Location (LocationID)
 );
 
