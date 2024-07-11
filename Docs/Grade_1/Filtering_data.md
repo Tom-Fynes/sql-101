@@ -113,7 +113,9 @@ WHERE departmentid = 101 AND salary > 50000 AND yearsofexperience > 5;
 ```
 
 #### Practice Exercises
-* TODO
+* `SELECT` all columns from the `employee` table with a salary more than `50000`
+* `SELECT` the `FirstName` and `LastName` of enployees with a `contractEndDate`
+* `SELECT` `products` with a `CategoryId` of `3` and a `Price` less than `50`
 
 
 ---
