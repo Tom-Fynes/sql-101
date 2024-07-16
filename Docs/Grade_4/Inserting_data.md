@@ -18,7 +18,7 @@ VALUES (value1, value2, value3, ...);
 Insert a new employee into the employees table:
 
 ```sql
-INSERT INTO employees (first_name, last_name, department_id, salary)
+INSERT INTO employees (firstname, lastname, departmentid, salary)
 VALUES ('John', 'Doe', 101, 50000);
 ```
 
@@ -38,7 +38,7 @@ VALUES (value1a, value2a, value3a, ...),
 Insert multiple new employees into the employees table:
 
 ```sql
-INSERT INTO employees (first_name, last_name, department_id, salary)
+INSERT INTO employees (firstname, lastname, departmentid, salary)
 VALUES ('Alice', 'Smith', 102, 55000),
        ('Bob', 'Brown', 103, 60000),
        ('Charlie', 'Johnson', 101, 52000);
@@ -59,14 +59,16 @@ WHERE condition;
 Copy all employees from the old_employees table to the employees table:
 
 ```sql
-INSERT INTO employees (first_name, last_name, department_id, salary)
-SELECT first_name, last_name, department_id, salary
+INSERT INTO employees (firstname, lastname, departmentid, salary)
+SELECT firstname, lastname, departmentid, salary
 FROM old_employees;
 ```
 
 ### Practice Exercises
 
-* TODO
+* insert 3 new employees that work in `IT`.
+* insert 5 new products that link to existing categories.
+* insert 10 new customers with 5 or these having new order inserted.
 
 ---
 
