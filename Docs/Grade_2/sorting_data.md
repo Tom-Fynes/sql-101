@@ -20,9 +20,9 @@ Ascending order is the default sorting order. You can specify it explicitly usin
 Retrieve all employees sorted by last name in ascending order:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
-ORDER BY last_name ASC;
+ORDER BY lastname ASC;
 ```
 
 #### Sorting in Descending Order
@@ -32,7 +32,7 @@ To sort the result set in descending order, you use the DESC keyword.
 Retrieve all employees sorted by salary in descending order:
 
 ```sql
-SELECT first_name, last_name, salary
+SELECT firstname, lastname, salary
 FROM employees
 ORDER BY salary DESC;
 ```
@@ -44,9 +44,9 @@ You can sort the result set by multiple columns. The result set is first sorted 
 Retrieve all employees sorted by department ID in ascending order and then by salary in descending order:
 
 ```sql
-SELECT first_name, last_name, department_id, salary
+SELECT firstname, lastname, departmentid, salary
 FROM employees
-ORDER BY department_id ASC, salary DESC;
+ORDER BY departmentid ASC, salary DESC;
 ```
 
 #### Sorting by Column Index
@@ -56,13 +56,14 @@ Instead of specifying column names, you can also use column indexes in the ORDER
 Retrieve all employees sorted by the second column (last name) in ascending order:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 ORDER BY 2 ASC;
 ```
 
 #### Practice Exercises
-* TODO
+* `Select` all employees ordeing them by `firstname` in a `descending` order
+* `Select` `address`, `city` and `postCode` ordering by address `descedning` and `postcode` `ascending` 
 
 
 ---
