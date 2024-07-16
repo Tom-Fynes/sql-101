@@ -14,7 +14,10 @@ You may also use any other database engine you feel comfortable with however the
 
 ## Setup
 
-* TODO
+* DuckDB
+* SQL Server
+* MySQL
+* Postgres
 
 ## Grades
 
