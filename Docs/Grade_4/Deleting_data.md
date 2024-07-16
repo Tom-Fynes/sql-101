@@ -17,7 +17,7 @@ Delete all employees in department 101:
 
 ```sql
 DELETE FROM employees
-WHERE department_id = 101;
+WHERE departmentid = 101;
 ```
 
 ### Using the WHERE Clause
@@ -29,7 +29,7 @@ Delete a specific employee by name:
 
 ```sql
 DELETE FROM employees
-WHERE first_name = 'John' AND last_name = 'Doe';
+WHERE firstname = 'John' AND last_name = 'Doe';
 ```
 
 ### Deleting All Rows
@@ -66,7 +66,8 @@ TRUNCATE TABLE employees;
 
 ### Practice Exercises
 
-* TODO
+* Delete any `customers` that have not made an order
+* Delete a product `cateory`
 
 ---
 
