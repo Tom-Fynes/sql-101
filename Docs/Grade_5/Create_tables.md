@@ -78,7 +78,8 @@ CREATE TABLE departments (
 
 ### Practice Exercises
 
-* Create a new table for employee `contact information` that joins to `employees`
+* Create a new table for employee `contact information` that joins to `employees`. This most include phone number and email but may have other information also.
+* Create a new table for customer `loyalty`, this most link back to `customers` and `orders`. This most include a way to track points 
   
 
 ---
