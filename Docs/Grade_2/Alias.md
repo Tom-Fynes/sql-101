@@ -17,7 +17,7 @@ FROM table_name;
 Retrieve employee first names and last names with aliases:
 
 ```sql
-SELECT first_name AS fname, last_name AS lname
+SELECT firstname AS fname, lastname AS lname
 FROM employees;
 ```
 
@@ -34,7 +34,7 @@ FROM table_name AS alias_name;
 Use table alias for the employees table:
 
 ```sql
-SELECT e.first_name, e.last_name
+SELECT e.firstname, e.lastname
 FROM employees AS e;
 ```
 
@@ -45,7 +45,7 @@ Column and table aliases can be used together to make queries more concise and r
 Retrieve employee details with both column and table aliases:
 
 ```sql
-SELECT e.first_name AS fname, e.last_name AS lname
+SELECT e.firstname AS fname, e.lastname AS lname
 FROM employees AS e
 ```
 
@@ -56,12 +56,13 @@ The `AS` keyword is optional when creating aliases. However, using AS can improv
 Retrieve employee names without using the AS keyword:
 
 ```sql
-SELECT first_name fname, last_name lname
+SELECT firstname fname, lastname lname
 FROM employees;
 ```
 
 Practice Exercises
-* TODO
+* `Select` all columns from `LocatinType` updating the columns to have `_` between each word
+* `Select` department name and `locationid` giving the table an alias and uing this on the column declaration  
 
 
 ---
