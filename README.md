@@ -13,10 +13,10 @@ You may also use any other database engine you feel comfortable with however the
 
 ## Setup
 
-* [DuckDB](Docs/Setup/Duckdb.md)
-* [SQL Server](Docs/Setup/SQL_Server.md)
-* [MySQL](Docs/Setup/MySql.md)
-* [Postgres](Docs/Setup/Postgres.md)
+* [DuckDB](Docs/setup/Duckdb.md)
+* [SQL Server](Docs/setup/SQL_Server.md)
+* [MySQL](Docs/setup/MySql.md)
+* [Postgres](Docs/setup/Postgres.md)
 
 ## Grades
 
