@@ -70,5 +70,5 @@ Practice Exercises
 <p align="center">
     <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/Basic_functions.md">Previous: Basic Functions</a>
     |
-    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_2/joins.md">Next: Joins</a>
+    <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_3/joins.md">Next: Joins</a>
 </p>
