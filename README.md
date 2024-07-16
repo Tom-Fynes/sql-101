@@ -13,7 +13,7 @@ You may also use any other database engine you feel comfortable with however the
 
 ## Setup
 
-* [DuckDB](Docs/Setup/DuckDb.md)
+* [DuckDB](Docs/Setup/Duckdb.md)
 * [SQL Server](Docs/Setup/SQL_Server.md)
 * [MySQL](Docs/Setup/MySql.md)
 * [Postgres](Docs/Setup/Postgres.md)
