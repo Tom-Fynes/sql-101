@@ -22,7 +22,7 @@ Update the salary of all employees in department 101:
 ```sql
 UPDATE employees
 SET salary = salary * 1.1
-WHERE department_id = 101;
+WHERE departmentid = 101;
 ```
 
 ### Updating Multiple Columns
@@ -54,7 +54,7 @@ Update the location of a specific department:
 ```sql
 UPDATE departments
 SET location = 'New York'
-WHERE department_name = 'Sales';
+WHERE departmentname = 'Sales';
 ```
 
 ### Conditional Updates
@@ -72,7 +72,8 @@ WHERE salary < 50000;
 
 ### Practice Exercises
 
-* TODO
+* Update the employyes salary by 10% who work in `marketing`
+* Update all of the the address of the `head office` to a new address 
   
 ---
 
