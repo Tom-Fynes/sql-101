@@ -21,7 +21,7 @@ Count the number of employees in department 101:
 ```sql
 SELECT COUNT(*)
 FROM employees
-WHERE department_id = 101;
+WHERE departmentid = 101;
 ```
 
 #### SUM
@@ -46,7 +46,7 @@ FROM employees;
 The `AVG` function returns the average value of a numeric column.
 
 ```sql
-SELECT AVG(column_name)
+SELECT AVG(columnname)
 FROM table_name
 WHERE condition;
 ```
@@ -57,7 +57,7 @@ Calculate the average salary of employees in department 101:
 ```sql
 SELECT AVG(salary)
 FROM employees
-WHERE department_id = 101;
+WHERE departmentid = 101;
 ```
 
 #### MAX
@@ -110,7 +110,7 @@ FROM table_name;
 Convert employee first names to uppercase:
 
 ```sql
-SELECT UPPER(first_name)
+SELECT UPPER(firstname)
 FROM employees;
 ```
 
@@ -126,7 +126,7 @@ FROM table_name;
 Convert employee last names to lowercase:
 
 ```sql
-SELECT LOWER(last_name)
+SELECT LOWER(lastname)
 FROM employees;
 ```
 
@@ -142,7 +142,7 @@ FROM table_name;
 Find the length of employee first names:
 
 ```sql
-SELECT LENGTH(first_name)
+SELECT LENGTH(firstname)
 FROM employees;
 ```
 
@@ -177,7 +177,11 @@ SELECT NOW();
 ```
 
 #### Practice Exercises
-* TODO
+* `Select` a `count` of all employees
+* Find the `sum` of all product prices
+* Get the average 'UnitPrice' or orders
+* Find the `maximum` `length` of all empolyees `firstname` where the `surname` starts with `s`
+  
 
 
 ---
