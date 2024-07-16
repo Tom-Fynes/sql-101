@@ -24,7 +24,7 @@ WHERE column_name = (SELECT column_name FROM table_name WHERE condition);
 Find employees who earn more than the average salary:
 
 ```sql
-SELECT first_name, last_name, salary
+SELECT firstname, lastname, salary
 FROM employees
 WHERE salary > (SELECT AVG(salary) FROM employees);
 ```
@@ -43,9 +43,9 @@ WHERE column_name IN (SELECT column_name FROM table_name WHERE condition);
 Find employees who work in the same department as 'John Doe':
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
-WHERE department_id IN (SELECT department_id FROM employees WHERE first_name = 'John' AND last_name = 'Doe');
+WHERE departmentid IN (SELECT departmentid FROM employees WHERE firstname = 'John' AND lastname = 'Doe');
 ```
 
 ### Scalar Subqueries
@@ -61,7 +61,7 @@ FROM table_name;
 Retrieve employee names and the total number of employees in the company:
 
 ```sql
-SELECT first_name, last_name, (SELECT COUNT(*) FROM employees) AS total_employees
+SELECT firstname, lastname, (SELECT COUNT(*) FROM employees) AS total_employees
 FROM employees;
 ```
 
@@ -79,14 +79,14 @@ WHERE column_name operator (SELECT column_name FROM table_name WHERE table_name.
 Find employees who earn more than the average salary in their department:
 
 ```sql
-SELECT first_name, last_name, salary
+SELECT firstname, lastname, salary
 FROM employees e1
-WHERE salary > (SELECT AVG(salary) FROM employees e2 WHERE e2.department_id = e1.department_id);
+WHERE salary > (SELECT AVG(salary) FROM employees e2 WHERE e2.departmentid = e1.departmentid);
 ```
 
 ### Practice Exercises
 
-* TODO
+* Get all employees where there department is `HR` and `IT`
 
 
 ---
