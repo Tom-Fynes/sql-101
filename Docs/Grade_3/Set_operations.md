@@ -19,10 +19,10 @@ FROM table2;
 Retrieve a list of all distinct department names from two tables:
 
 ```sql
-SELECT department_name
+SELECT departmentname
 FROM departments1
 UNION
-SELECT department_name
+SELECT departmentname
 FROM departments2;
 ```
 
@@ -43,10 +43,10 @@ FROM table2;
 Retrieve a list of all department names, including duplicates:
 
 ```sql
-SELECT department_name
+SELECT departmentname
 FROM departments1
 UNION ALL
-SELECT department_name
+SELECT departmentname
 FROM departments2;
 ```
 
@@ -66,10 +66,10 @@ FROM table2;
 Retrieve a list of department names that are common to both tables:
 
 ```sql
-SELECT department_name
+SELECT departmentname
 FROM departments1
 INTERSECT
-SELECT department_name
+SELECT departmentname
 FROM departments2;
 ```
 
@@ -89,10 +89,10 @@ FROM table2;
 Retrieve a list of department names that are in the first table but not in the second:
 
 ```sql
-SELECT department_name
+SELECT departmentname
 FROM departments1
 EXCEPT
-SELECT department_name
+SELECT departmentname
 FROM departments2;
 ```
 
@@ -102,7 +102,8 @@ FROM departments2;
 
 ### Practice Exercises
 
-* TODO
+* Get a list of `firstnames` from employees where the departmentid is `1` and `5`, the list most not have duplicates.
+* get a list of names from employess where the departmentid = 2 and they are also in the full employee table.
 
 ---
 
