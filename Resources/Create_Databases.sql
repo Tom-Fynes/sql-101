@@ -17,7 +17,7 @@ CREATE TABLE Address (
     AddressLine2 VARCHAR(100),
     City VARCHAR(50),
     County VARCHAR(50),
-    PostCode VARCHAR(10)
+    PostCode VARCHAR(10),
     AddressTypeID INT,
     FOREIGN KEY (AddressTypeID) REFERENCES AddressType (AddressTypeID)
 );
