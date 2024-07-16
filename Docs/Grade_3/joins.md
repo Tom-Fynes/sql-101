@@ -16,9 +16,9 @@ INNER JOIN table2 ON table1.common_column = table2.common_column;
 Retrieve employee names and their department names:
 
 ```sql
-SELECT employees.first_name, employees.last_name, departments.department_name
+SELECT employees.firstname, employees.lastname, departments.departmentname
 FROM employees
-INNER JOIN departments ON employees.department_id = departments.department_id;
+INNER JOIN departments ON employees.departmentid = departments.departmentid;
 ```
 
 ### LEFT JOIN (or LEFT OUTER JOIN)
@@ -52,9 +52,9 @@ RIGHT JOIN table2 ON table1.common_column = table2.common_column;
 Retrieve all departments and their employees, including departments with no employees:
 
 ```sql
-SELECT employees.first_name, employees.last_name, departments.department_name
+SELECT employees.firstname, employees.lastname, departments.departmentname
 FROM employees
-RIGHT JOIN departments ON employees.department_id = departments.department_id;
+RIGHT JOIN departments ON employees.departmentid = departments.departmentid;
 ```
 
 ### FULL OUTER JOIN
@@ -70,13 +70,15 @@ FULL OUTER JOIN table2 ON table1.common_column = table2.common_column;
 Retrieve all employees and departments, including those without matches:
 
 ```sql
-SELECT employees.first_name, employees.last_name, departments.department_name
+SELECT employees.firstname, employees.lastname, departments.departmentname
 FROM employees
-FULL OUTER JOIN departments ON employees.department_id = departments.department_id;
+FULL OUTER JOIN departments ON employees.departmentid = departments.departmentid;
 ```
 
 ### Practice Exercises
-* TODO
+* `Select` `all` columns from orders and orderdetails using an with matching values
+* `Join` employees and departments where the employee works in `HR` only returning the first name surname and salary
+*  Find product categories that do not have any products
 
 
 ---
