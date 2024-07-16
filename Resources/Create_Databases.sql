@@ -1,8 +1,5 @@
--- Create database if not exists
-CREATE DATABASE IF NOT EXISTS SQL101;
-
--- Use the database
-USE SQL101;
+--creating a databse in DuckDB is currently unsupported and as such we will use main. 
+USE main;
 
 -- Create tables
 CREATE TABLE AddressType (
@@ -241,7 +238,7 @@ VALUES
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email, Phone, AddressID)
 VALUES
     (101, 'Alice', 'Johnson', 'sample@sample.com', '00000000000', 12),
-    (102, 'Bob', 'Smith', 'sample@sample.com', '00000000000', 13)
+    (102, 'Bob', 'Smith', 'sample@sample.com', '00000000000', 13);
 
 
 INSERT INTO ProductCategories (CategoryID, CategoryName)
