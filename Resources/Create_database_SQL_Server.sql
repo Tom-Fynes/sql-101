@@ -252,7 +252,8 @@ VALUES
     (2, 'Clothing'),
     (3, 'Books'),
     (4, 'Toys'),
-    (5, 'Furniture');
+    (5, 'Furniture'),
+    (6, 'Misc');
 
 GO
 INSERT INTO Products (ProductID, ProductName, CategoryID, Price)
