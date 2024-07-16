@@ -9,7 +9,7 @@ A relational database is a type of database that stores and provides access to d
     - A table is a collection of related data entries that consists of rows and columns.
     - Each table in a database has a unique name.
     - Example:
-      | employee_id | first_name | last_name | department_id |
+      | employeeid | firstname | lastname | departmentid |
       |-------------|------------|-----------|---------------|
       | 1           | John       | Doe       | 101           |
       | 2           | Jane       | Smith     | 102           |
@@ -27,12 +27,12 @@ A relational database is a type of database that stores and provides access to d
 1. **Primary Key**:
     - A primary key is a column, or a set of columns, that uniquely identifies each row in a table.
     - Primary keys must contain unique values and cannot contain NULL values.
-    - Example: `employee_id` in the `employees` table.
+    - Example: `employeeid` in the `employees` table.
 
 2. **Foreign Key**:
     - A foreign key is a column, or a set of columns, that establishes a link between the data in two tables.
     - It is a field (or collection of fields) in one table that refers to a unique vakue in another table.
-    - Example: `department_id` in the `employees` table might reference the `department_id` in a `departments` table.
+    - Example: `departmentid` in the `employees` table might reference the `departmentid` in a `departments` table.
 
 ### Relationships Between Tables
 
