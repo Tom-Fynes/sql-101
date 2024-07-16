@@ -16,7 +16,7 @@ LIMIT number;
 Retrieve the first 5 employees:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 LIMIT 5;
 ```
@@ -34,7 +34,7 @@ LIMIT number OFFSET offset;
 Retrieve the next 5 employees after skipping the first 10:
 
 ```sql
-SELECT first_name, last_name
+SELECT firstname, lastname
 FROM employees
 LIMIT 5 OFFSET 10;
 ```
@@ -46,14 +46,16 @@ When using `LIMIT`, it is often combined with `ORDER BY` to ensure that the rows
 Retrieve the top 5 highest-paid employees:
 
 ```sql
-SELECT first_name, last_name, salary
+SELECT firstname, lastname, salary
 FROM employees
 ORDER BY salary DESC
 LIMIT 5;
 ```
 
 #### Practice Exercises
-* TODO
+* `Select` `25` employees
+* `Select` `10` froms from any table with an `OFFSET`  or 5
+* `Select` the top `5` product names and price 
 
 
 ---
