@@ -25,12 +25,12 @@ Create a table for storing employee information:
 
 ```sql
 CREATE TABLE employees (
-    employee_id INT PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    department_id INT,
+    employeeid INT PRIMARY KEY,
+    firstname VARCHAR(50) NOT NULL,
+    lastname VARCHAR(50) NOT NULL,
+    departmentid INT,
     salary DECIMAL(10, 2),
-    hire_date DATE
+    hiredate DATE
 );
 ```
 
@@ -62,11 +62,11 @@ Create a table with constraints:
 
 ```sql
 CREATE TABLE departments (
-    department_id INT PRIMARY KEY,
-    department_name VARCHAR(50) NOT NULL,
-    manager_id INT,
-    UNIQUE (department_name),
-    FOREIGN KEY (manager_id) REFERENCES employees(employee_id)
+    departmentid INT PRIMARY KEY,
+    departmentname VARCHAR(50) NOT NULL,
+    managerid INT,
+    UNIQUE (departmentname),
+    FOREIGN KEY (managerid) REFERENCES employees(employeeid)
 );
 ```
 
@@ -78,7 +78,8 @@ CREATE TABLE departments (
 
 ### Practice Exercises
 
-* TODO
+* Create a new table for employee `contact information` that joins to `employees`
+  
 
 ---
 
