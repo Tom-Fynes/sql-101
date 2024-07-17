@@ -14,6 +14,11 @@ SELECT firstname, lastname
 FROM employees;
 ```
 
+### Practice Exercises
+
+* Select `All` columns from `addreestype`.
+* Select only `addressid` and `addresstypeid` from `address`.
+
 ---
 
 <p align="center">
