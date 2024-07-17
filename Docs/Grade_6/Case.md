@@ -25,13 +25,13 @@ END;
 Classify employees based on their department:
 
 ```sql
-SELECT employee_id, department_id,
+SELECT employeeid, departmentid,
     CASE department_id
         WHEN 1 THEN 'Sales'
         WHEN 2 THEN 'Engineering'
         WHEN 3 THEN 'HR'
         ELSE 'Other'
-    END AS department_name
+    END AS departmentname
 FROM employees;
 ```
 
@@ -56,7 +56,7 @@ END;
 Categorize products based on their price:
 
 ```sql
-SELECT product_id, product_name, price,
+SELECT productid, productname, price,
     CASE
         WHEN price < 10 THEN 'Cheap'
         WHEN price BETWEEN 10 AND 50 THEN 'Moderate'
@@ -64,32 +64,6 @@ SELECT product_id, product_name, price,
         ELSE 'Unknown'
     END AS price_category
 FROM products;
-```
-
-### Nested CASE Statements
-You can nest `CASE` statements within each other to handle more complex logic.
-
-**Example**
-Classify employees based on both department and job title:
-
-```sql
-SELECT employee_id, department_id, job_title,
-    CASE department_id
-        WHEN 1 THEN
-            CASE job_title
-                WHEN 'Manager' THEN 'Sales Manager'
-                WHEN 'Staff' THEN 'Sales Staff'
-                ELSE 'Sales Other'
-            END
-        WHEN 2 THEN
-            CASE job_title
-                WHEN 'Manager' THEN 'Engineering Manager'
-                WHEN 'Staff' THEN 'Engineering Staff'
-                ELSE 'Engineering Other'
-            END
-        ELSE 'Other Department'
-    END AS job_classification
-FROM employees;
 ```
 
 ### Using CASE in ORDER BY
@@ -113,7 +87,8 @@ ORDER BY
 
 ### Practice Exercises
 
-* TODO
+* Select `all` `employess` if the `salary` is more then `100,000` then return the `salary` else give a `null` value.
+* Select all `products` that have a `corresponding order`, if they have an `order` return `sold` else return `to be reviewed` 
   
 
 ---
