@@ -18,7 +18,7 @@ The execution plan shows how the SQL database engine executes a query. Understan
 **Example**
 
 ```sql
-EXPLAIN SELECT * FROM employees WHERE department_id = 1;
+EXPLAIN SELECT * FROM employees WHERE departmentid = 1;
 ```
 
 ## Indexing Strategies
@@ -27,13 +27,13 @@ Effective use of indexes can greatly improve query performance.
 ### Create Indexes on Columns Used in WHERE Clauses
 
 ```sql
-CREATE INDEX idx_department_id ON employees (department_id);
+CREATE INDEX idx_department_id ON employees (departmentid);
 ```
 
 ### Create Composite Indexes on Multiple Columns
 
 ```sql
-CREATE INDEX idx_department_name ON employees (department_id, last_name);
+CREATE INDEX idx_department_name ON employees (departmentid, lastname);
 ```
 
 ### Avoid Over-Indexing
@@ -52,9 +52,9 @@ FROM employees;
 
 -- Efficient
 SELECT
-  first_name,
-  last_name,
-  department_id
+  firstname,
+  lastname,
+  departmentid
 FROM employees;
 ```
 
@@ -64,19 +64,19 @@ Subqueries can be less efficient than joins.
 ```sql
 -- Subquery
 SELECT
-  first_name,
-  last_name
+  firstname,
+  lastname
 FROM employees
-WHERE department_id = (SELECT department_id FROM departments WHERE department_name = 'Sales');
+WHERE department_id = (SELECT departmentid FROM departments WHERE departmentname = 'Sales');
 
 -- Join
 SELECT
-  e.first_name,
-  e.last_name
+  e.firstname,
+  e.lastname
 FROM employees e
   JOIN departments d
-    ON e.department_id = d.department_id
-WHERE d.department_name = 'Sales';
+    ON e.departmentid = d.departmentid
+WHERE d.departmentname = 'Sales';
 ```
 
 ### Use WHERE Clauses to Filter Data Early
@@ -87,15 +87,15 @@ Filter data as early as possible to reduce the number of rows processed.
 SELECT
   *
 FROM employees
-ORDER BY last_name
-WHERE department_id = 1;
+ORDER BY lastname
+WHERE departmentid = 1;
 
 -- Efficient
 SELECT
   *
 FROM employees
-WHERE department_id = 1
-ORDER BY last_name;
+WHERE departmentid = 1
+ORDER BY lastname;
 ```
 
 ## Optimizing Joins
@@ -107,26 +107,26 @@ Inner joins are generally faster than outer joins.
 ```sql
 -- Outer Join
 SELECT
-  e.first_name,
-  d.department_name
+  e.firstname,
+  d.departmentname
 FROM employees e
   LEFT JOIN departments d
-    ON e.department_id = d.department_id;
+    ON e.departmentid = d.departmentid;
 
 -- Inner Join
 SELECT
-  e.first_name,
-  d.department_name
+  e.firstname,
+  d.departmentname
 FROM employees e
   INNER JOIN departments d
-    ON e.department_id = d.department_id;
+    ON e.departmentid = d.departmentid;
 ```
 
 ### Ensure Columns Used in Joins Are Indexed
 
 ```sql
-CREATE INDEX idx_department_id ON employees (department_id);
-CREATE INDEX idx_department_id ON departments (department_id);
+CREATE INDEX idx_department_id ON employees (departmentid);
+CREATE INDEX idx_department_id ON departments (departmentid);
 ```
 
 ## Avoiding Common Pitfalls
@@ -139,13 +139,13 @@ Using functions on indexed columns can prevent the use of indexes.
 SELECT
   *
 FROM employees
-WHERE UPPER(last_name) = 'SMITH';
+WHERE UPPER(lastname) = 'SMITH';
 
 -- Efficient
 SELECT
   *
 FROM employees
-WHERE last_name = 'Smith';
+WHERE lastname = 'Smith';
 ```
 
 ## Avoid Wildcards at the Beginning of LIKE Patterns
@@ -156,18 +156,18 @@ Wildcards at the beginning of `LIKE` patterns can prevent index use.
 SELECT
   *
 FROM employees
-WHERE last_name LIKE '%mith';
+WHERE lastname LIKE '%mith';
 
 -- Efficient
 SELECT
   *
 FROM employees
-WHERE last_name LIKE 'Smi%';
+WHERE lastname LIKE 'Smi%';
 ```
 
 ## Practice Exercises
 
-* TODO
+* Go back over the `queries` you have created as part off this course and update these to make them more `efficient`. Use the `execution plans` and `save` the updated query along side you `old version`.
 
 ---
 
