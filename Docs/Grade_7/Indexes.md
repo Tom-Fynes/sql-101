@@ -104,7 +104,8 @@ from duckdb_constraints()
   
 ### Practice Exercises
 
-* TODO
+* Create an index on the `employee` table for the employee `names` and `salary`
+* create an index on the `customer` table for `email`
 
 ---
 
