@@ -114,7 +114,7 @@ Calculate the total sales:
 
 ```sql
 SELECT
-  SUM(sales_amount) AS total_sales
+  SUM(salesamount) AS total_sales
 FROM sales;
 ```
 
@@ -156,7 +156,9 @@ FROM orders;
 
 ### Practice Exercises
 
-* TODO
+* Get the `square root` of all `product` `prices`, now update all of the `prices` with the price `multipled` by the square root.
+* Once the above exercise has been completed `update` the all the tables that link to `products` and if any values need `updating`, make these changes
+* Find the `employee` who gets paid the `least`, `update` their `salary` to be more then the person with the `maximum` `salary`.
   
 
 ---
