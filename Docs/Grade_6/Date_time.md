@@ -53,7 +53,7 @@ Extract the year from the hire date:
 
 ```sql
 SELECT
-  DATEPART(year, hire_date) AS hire_year
+  DATEPART(year, hiredate) AS hire_year
 FROM employees;
 ```
 
@@ -74,7 +74,7 @@ Calculate the number of days between order date and ship date:
 
 ```sql
 SELECT
-  DATEDIFF(day, order_date, ship_date) AS days_to_ship
+  DATEDIFF(day, orderdate, shipdate) AS days_to_ship
 FROM orders;
 ```
 
@@ -95,7 +95,7 @@ Add 7 days to the order date:
 
 ```sql
 SELECT
-  order_date, DATEADD(day, 7, order_date) AS expected_delivery
+  order_date, DATEADD(day, 7, orderdate) AS expected_delivery
 FROM orders;
 ```
 
@@ -116,7 +116,7 @@ Format the hire date as `'YYYY-MM-DD'`:
 ```sql
 SELECT
   hire_date,
-  FORMAT(hire_date, 'yyyy-MM-dd') AS formatted_hire_date
+  FORMAT(hiredate, 'yyyy-MM-dd') AS formatted_hire_date
 FROM employees;
 ```
 
@@ -142,7 +142,8 @@ FROM employees;
 
 ### Practice Exercises
 
-* TODO
+* For all `employees` without a `ContractEndDate` `select` how may days the employee has worked for the company.
+* Using the `query` from the above `exercise` update this to now `display` the hire `year` and hire `month` is seperate columns
 
 ---
 
