@@ -20,10 +20,10 @@ Calculate the row number for each product category ordered by total sales:
 
 ```sql
 SELECT
-    product_id,
-    product_category,
-    total_sales,
-    ROW_NUMBER() OVER (PARTITION BY product_category ORDER BY total_sales DESC) AS row_num
+    productid,
+    productcategory,
+    totalsales,
+    ROW_NUMBER() OVER (PARTITION BY productcategory ORDER BY totalsales DESC) AS row_num
 FROM
     sales;
 ```
@@ -45,10 +45,10 @@ Rank products by total sales within each product category:
 
 ```sql
 SELECT
-    product_id,
-    product_category,
-    total_sales,
-    RANK() OVER (PARTITION BY product_category ORDER BY total_sales DESC) AS sales_rank
+    productid,
+    productcategory,
+    totalsales,
+    RANK() OVER (PARTITION BY productcategory ORDER BY totalsales DESC) AS sales_rank
 FROM
     sales;
 ```
@@ -70,19 +70,22 @@ Divide customers into quartiles based on their order amounts:
 
 ```sql
 SELECT
-    customer_id,
-    order_amount,
-    NTILE(4) OVER (ORDER BY order_amount) AS quartile
+    customerid,
+    orderamount,
+    NTILE(4) OVER (ORDER BY orderamount) AS quartile
 FROM
     orders;
 ```
 
 ### Practice Exercises
 
-* TODO 
+* Find any `customer` that has more then one `order`, using `row_number()`.
+* find the `rank` all `products` sold.
 
 ---
 
 <p align="center">
     <a href="https://github.com/Tom-Fynes/sql-101/blob/main/Docs/Grade_8/Locking_concurrentct.md">Previous: Locking and Concurrency</a>
+  |
+  End - Congratulations 🥳:
 </p>
