@@ -104,7 +104,7 @@ Rename the last_name column to surname in the employees table:
 
 ```sql
 ALTER TABLE employees
-RENAME COLUMN last_name TO surname;
+RENAME COLUMN lastname TO surname;
 ```
 
 #### Rename Table
@@ -125,7 +125,8 @@ RENAME TO staff;
 
 ### Practice Exercises
 
-* TODO
+* `Alther` the employee table and set the salary to be an `INT` column
+* `Alter` the department table and add new column for `department code`. Once this has been done `update` the table to include a `department code` for every table, after completion alter the table again and make this new column a `not null` column.
 
 ---
 
