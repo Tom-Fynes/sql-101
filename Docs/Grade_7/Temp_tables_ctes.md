@@ -63,7 +63,7 @@ CREATE TEMP TABLE temp_sales (
 
 INSERT INTO temp_sales (product_id, total_sales)
 SELECT
-  product_id,
+  productid,
   SUM(amount)
 FROM sales
 GROUP BY product_id;
@@ -101,11 +101,11 @@ Using a `CTE` to calculate total sales and then retrieve products with sales gre
 
 ```sql
 WITH TotalSales AS (
-    SELECT product_id, SUM(amount) AS total_sales
+    SELECT productid, SUM(amount) AS total_sales
     FROM sales
-    GROUP BY product_id
+    GROUP BY productid
 )
-SELECT product_id, total_sales
+SELECT productid, total_sales
 FROM TotalSales
 WHERE total_sales > 1000;
 ```
@@ -137,23 +137,24 @@ Using a recursive `CTE` to retrieve an employee hierarchy:
 
 ```sql
 WITH RECURSIVE EmployeeHierarchy AS (
-    SELECT employee_id, manager_id, employee_name
+    SELECT employeeid, managerid, firstname, lastname
     FROM employees
     WHERE manager_id IS NULL
 
     UNION ALL
 
-    SELECT e.employee_id, e.manager_id, e.employee_name
+    SELECT e.employeeid, e.managerid, e.firstname, e.lastname
     FROM employees e
     INNER JOIN EmployeeHierarchy eh ON e.manager_id = eh.employee_id
 )
-SELECT employee_id, employee_name, manager_id
+SELECT employeeid, firstname, lastname, managerid
 FROM EmployeeHierarchy;
 ```
 
 ### Practice Exercises
 
-* TODO
+* Create a `CTE` containting all `employee` that work in `marketing`, use this in your select statement to get the `firstname` and `lastname` of these employees.
+* create a `temp` table with the `sum` of all `sales`, how query this table working out how much this would be if `50%` of the `total sales` was added oon.
 
 ---
 
