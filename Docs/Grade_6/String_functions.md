@@ -15,7 +15,7 @@ CONCAT(string1, string2, ...);
 Concatenate first name and last name into a full name:
 
 ```sql
-SELECT CONCAT(first_name, ' ', last_name) AS full_name
+SELECT CONCAT(firstname, ' ', lastname) AS full_name
 FROM employees;
 ```
 
@@ -35,7 +35,7 @@ SUBSTRING(string, start_position,length);
 Extract the first three characters of the product name:
 
 ```sql
-SELECT SUBSTRING(product_name, 1,3) AS short_name
+SELECT SUBSTRING(productname, 1,3) AS short_name
 FROM products;
 ```
 
@@ -52,7 +52,7 @@ LOWER(string);
 Convert the last name to uppercase and first name to lowercase:
 
 ```sql
-SELECT UPPER(last_name) AS last_name_upper, LOWER(first_name) AS first_name_lower
+SELECT UPPER(lastname) AS last_name_upper, LOWER(firstname) AS first_name_lower
 FROM employees;
 ```
 
@@ -106,7 +106,8 @@ FROM customers;
 
 ### Practice Exercises
 
-* TODO
+* `Select` only the `first` character from all `employees` first name
+* Using the `results` from the exercise above `concatenate` the `first letter` with the `lastname`, this must have a space inbetween.
 
 ---
 
