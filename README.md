@@ -13,7 +13,7 @@ You may also use any other database engine you feel comfortable with however the
 
 ## Setup
 
-To participate please fork the repo and follow one of the setup documents. please save your queries [here](Exercises).
+To participate please fork the repo and follow one of the setup documents. please save your queries [here](Exercises). Also while going through the corse if you find an issue or think of an improvement please log an issue [here](https://github.com/Tom-Fynes/sql-101/issues)
 
 * [DuckDB](Docs/setup/Duckdb.md)
 * [SQL Server](Docs/setup/SQL_Server.md)
