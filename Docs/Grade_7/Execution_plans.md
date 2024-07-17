@@ -13,14 +13,14 @@ An execution plan describes the sequence of operations the database engine perfo
 Use the `EXPLAIN` statement.
 
 ```sql
-EXPLAIN SELECT * FROM employees WHERE department_id = 1;
+EXPLAIN SELECT * FROM employees WHERE departmentid = 1;
 ```
 
 **PostgreSQL**
 
 Use the EXPLAIN statement.
 ```sql
-EXPLAIN SELECT * FROM employees WHERE department_id = 1;
+EXPLAIN SELECT * FROM employees WHERE departmentid = 1;
 ```
 
 **SQL Server**
@@ -34,7 +34,7 @@ SELECT
   *
 FROM
 employees
-WHERE department_id = 1;
+WHERE departmentid = 1;
 ```
 
 **DuckDB**
@@ -42,7 +42,7 @@ WHERE department_id = 1;
 Use the EXPLAIN statement.
 
 ```sql
-EXPLAIN SELECT * FROM employees WHERE department_id = 1;
+EXPLAIN SELECT * FROM employees WHERE departmentid = 1;
 ```
 
 ### Understanding Execution Plan Components
@@ -70,7 +70,7 @@ EXPLAIN SELECT * FROM employees WHERE department_id = 1;
 Analyze the execution plan for a simple query.
 
 ```sql
-EXPLAIN SELECT * FROM employees WHERE department_id = 1;
+EXPLAIN SELECT * FROM employees WHERE departmentid = 1;
 ```
 
 Output: Shows a full table scan or index scan based on indexing.
@@ -80,9 +80,9 @@ Output: Shows a full table scan or index scan based on indexing.
 Analyze the execution plan for a join query.
 
 ```sql
-EXPLAIN SELECT e.first_name, d.department_name
+EXPLAIN SELECT e.firstname, d.departmentname
 FROM employees e
-JOIN departments d ON e.department_id = d.department_id;
+JOIN departments d ON e.departmentid = d.departmentid;
 ```
 
 Output: Shows how the join is performed (e.g., nested loop join, hash join).
@@ -107,7 +107,7 @@ Rewrite queries to use more efficient operations, such as replacing subqueries w
 
 ### Practice Exercises
 
-* TODO
+* Get the `execution plans` for at least `3` queries, look at how the query was executed and if there is anything you can implament to change the execution plans
 
 ---
 
