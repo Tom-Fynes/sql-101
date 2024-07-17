@@ -132,7 +132,8 @@ SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
 
 ### Practice Exercises
 
-* TODO 
+* Start a `transaction`, `update` the values in a `single column` from any table. Once done check the values. `Rollback` the transaction.
+* Start a `transaction` updating `two` tables using `subqueries` to change the values in the column and `commit` this transaction.
 
 ---
 
