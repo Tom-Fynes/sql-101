@@ -66,7 +66,8 @@ DROP TABLE employees;
 
 ### Practice Exercises
 
-* TODO
+* The `customer` table needs to be redesigned, `drop` the existing table and create a new version of the customer table. When creating a new version make sure the `foreign key` referrances are also added. Once the new table is created insert `25` customers.
+* `Update` any table that the customers interact with makeing sure the `joins` still work, it is okay for some customers to not have any `orders`.  
   
 
 ---
