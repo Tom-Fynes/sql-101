@@ -9,7 +9,7 @@ By the end of the course, you will be writing complex queries, optimizing databa
 * [DBeaver Community](https://dbeaver.io/)
 * [DuckDB](https://duckdb.org/)
 
-You may also use any other database engine you feel comfortable with however the create database statement may need to be adjusted.
+You may also use any other database engine you feel comfortable with however the create database statement may need to be adjusted. It maybe also be that some functions are not in your chosen engine or are named differently.
 
 ## Setup
 
