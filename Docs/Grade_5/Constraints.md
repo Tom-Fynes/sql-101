@@ -151,7 +151,8 @@ DROP CONSTRAINT unique_email;
 
 ### Practice Exercises
 
-* TODO 
+* `Alter` the `departments` table making sure that department codes must be `unique`
+* `Alter` `any` table and add a `check` constraint to any `column`
 
 ---
 
