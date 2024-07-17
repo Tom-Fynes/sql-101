@@ -13,7 +13,7 @@ You may also use any other database engine you feel comfortable with however the
 
 ## Setup
 
-To participate please fork the repo and follow one of the setup documents. please save your queries [here](Docs/Exercises).
+To participate please fork the repo and follow one of the setup documents. please save your queries [here](Exercises).
 
 * [DuckDB](Docs/setup/Duckdb.md)
 * [SQL Server](Docs/setup/SQL_Server.md)
