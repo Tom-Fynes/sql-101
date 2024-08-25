@@ -81,7 +81,7 @@ Grades have been added to help break your journy into helpful sections. Each sec
 * [**Windows Functions**](Docs/Grade_8/Windows_functions.md): Using `ROWNUMBER`, `RANK`, and `NTILE`.
 
 
-### Extracurricular
+### Extra
 
 In this section we will cover technoligy specific topics such as reading CSVs in DuckDB and variable in SQL Server (TSQL).
 
